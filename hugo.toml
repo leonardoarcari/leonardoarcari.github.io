@@ -1,0 +1,62 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-coder'
+
+paginate = 20
+
+# disqusShortname = ""
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Leonardo Arcari"
+info = "Senior Software Engineer - Finance"
+description = "John Doe's personal website"
+keywords = "blog,developer,personal"
+avatarurl = "images/avatar.jpg"
+#gravatar = "john.doe@example.com"
+
+faviconSVG = "/img/favicon.svg"
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
+
+since = 2023
+
+enableTwemoji = true
+
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/leonardoarcari/"
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 3
+url = "https://twitter.com/arcari_leonardo/"
+
+# Menu links
+[[menu.main]]
+name = "Blog"
+weight = 1
+url = "posts/"
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about/"
