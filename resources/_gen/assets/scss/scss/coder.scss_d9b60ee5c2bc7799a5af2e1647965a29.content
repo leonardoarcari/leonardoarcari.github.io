@@ -3265,6 +3265,9 @@ figure {
   .content header {
     margin-top: 6.4rem;
     margin-bottom: 3.2rem; }
+    @media only screen and (max-width: 768px) {
+      .content header {
+        margin-top: 1.6rem; } }
     .content header h1 {
       font-size: 4.2rem;
       line-height: 4.6rem;
@@ -3379,6 +3382,8 @@ figure {
       @media only screen and (max-width: 768px) {
         .centered .about h2 {
           font-size: 2rem; } }
+    .centered .about .author h2 {
+      font-weight: lighter; }
     .centered .about ul {
       list-style: none;
       margin: 3rem 0 1rem 0;
@@ -3663,7 +3668,8 @@ figure {
 .footer {
   width: 100%;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
   line-height: 2rem;
   margin-bottom: 1rem; }
   .footer a {

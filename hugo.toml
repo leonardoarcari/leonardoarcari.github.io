@@ -1,6 +1,6 @@
 baseURL = 'https://leonardoarcari.github.io/'
 languageCode = 'en-us'
-title = "Leo's Place"
+title = "Leo's Website"
 theme = 'hugo-coder'
 
 paginate = 20
@@ -42,7 +42,7 @@ author = "authors"
 # Social links
 [[params.social]]
 name = "Github"
-icon = "fa fa-github fa-2x"
+icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/leonardoarcari/"
 
@@ -54,9 +54,21 @@ url = "https://www.linkedin.com/in/leonardoarcari/"
 
 [[params.social]]
 name = "Twitter"
-icon = "fa fa-twitter fa-2x"
+icon = "fa fa-2x fa-twitter"
 weight = 3
 url = "https://twitter.com/arcari_leonardo/"
+
+[[params.social]]
+name = "Youtube"
+icon = "fa fa-2x fa-youtube-play"
+weight = 3
+url = "www.youtube.com/@leonardoarcari"
+
+[[params.social]]
+name = "Telegram"
+icon = "fa fa-2x fa-telegram"
+weight = 3
+url = "https://t.me/leonardoarcari"
 
 # i18n
 [languages.en]
