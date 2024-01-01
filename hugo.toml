@@ -1,4 +1,4 @@
-baseURL = 'https://leonardoarcari.github.io/'
+baseURL = 'https://leonardoarcari.dev/'
 languageCode = 'en-us'
 title = "Leo's Website"
 theme = 'hugo-coder'
@@ -62,7 +62,7 @@ url = "https://twitter.com/arcari_leonardo/"
 name = "Youtube"
 icon = "fa fa-2x fa-youtube-play"
 weight = 3
-url = "www.youtube.com/@leonardoarcari"
+url = "https://youtube.com/@leonardoarcari"
 
 [[params.social]]
 name = "Telegram"
