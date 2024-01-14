@@ -1,11 +1,11 @@
 baseURL = 'https://leonardoarcari.dev/'
 languageCode = 'en-us'
-title = "Leo's Website"
+title = "Leo's Pensieve"
 theme = 'hugo-coder'
 
 paginate = 20
 
-# disqusShortname = ""
+disqusShortname = "leonardoarcari-dev"
 
 [markup.highlight]
 style = "github-dark"
@@ -15,14 +15,14 @@ author = "Leonardo Arcari"
 info = "Senior Software Engineer - Finance"
 description = "Leonardo Arcari's personal website"
 keywords = "blog,developer,personal"
-#avatarurl = "images/avatar.jpg"
+avatarurl = "images/profile-pic.jpg"
 #gravatar = "john.doe@example.com"
 
 #faviconSVG = "/img/favicon.svg"
 #favicon_32 = "/img/favicon-32x32.png"
 #favicon_16 = "/img/favicon-16x16.png"
 
-since = 2023
+# since = 2023
 
 enableTwemoji = true
 
