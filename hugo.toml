@@ -24,6 +24,7 @@ avatarurl = "images/profile-pic.jpg"
 
 # since = 2023
 
+math = true
 enableTwemoji = true
 
 colorScheme = "auto"
