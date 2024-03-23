@@ -1,6 +1,6 @@
 baseURL = 'https://leonardoarcari.dev/'
 languageCode = 'en-us'
-title = "Leo's Pensieve"
+title = "Leo's Personal Website"
 theme = 'hugo-coder'
 
 paginate = 20
@@ -75,8 +75,14 @@ url = "https://t.me/leonardoarcari"
 [languages.en]
 languageName = ":us:"
 
+[languages.en.params]
+recentPostsTitle = "Recent posts"
+
 [languages.it]
 languageName = ":it:"
+
+[languages.it.params]
+recentPostsTitle = "Post recenti"
 
 # Menu links
 [[menu.main]]
