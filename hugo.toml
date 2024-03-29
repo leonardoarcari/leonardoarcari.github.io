@@ -26,6 +26,7 @@ avatarurl = "images/profile-pic.jpg"
 
 math = true
 enableTwemoji = true
+dateFormat = ":date_medium"
 
 colorScheme = "auto"
 hidecolorschemetoggle = false
